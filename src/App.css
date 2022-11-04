@@ -175,3 +175,27 @@ textarea {
 a{
   text-decoration: none;
 }
+
+.profile-header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom:30px;
+}
+
+#username{
+  margin-top: 20px;
+  font-weight: bolder;
+}
+
+.links > a{
+  display: block;
+  background-color:#ccc;
+  text-align: center;
+  color:black;
+  padding-top:10px ;
+  padding-bottom:10px;
+  margin-top: 10px;
+  margin-bottom:10px;
+}
