@@ -21,7 +21,7 @@ export default function Contact() {
             </div>
             <div>
                 <label>Message</label><br />
-                <textarea rows="10" cols="84" placeholder="Send me a message and i will relpy you"></textarea>
+                <textarea rows="10" cols="84" placeholder="Send me a message and i will relpy you" id="massage"></textarea>
             </div>
             <div>
                 <input type="checkbox"></input> you agree to providing your data to name who may contact you
@@ -29,6 +29,10 @@ export default function Contact() {
             <div>
                 <button style={{ width: "98%", backgroundColor: 'blue', color: "white", marginTop: "15px" }}>send message</button>
             </div>
+            <div>
+                <a href="/">back home</a>
+            </div>
+
         </section >
 
     )
