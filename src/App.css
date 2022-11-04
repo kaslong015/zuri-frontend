@@ -1,0 +1,177 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  
+} 
+/* 
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+
+
+*{
+  margin:0;
+  padding:0;
+}
+
+
+body{
+  background-color: #fff;
+  font-family:Verdana,Geneva,sans-serif; ;
+}
+
+img{
+  height:50px;
+  width:50xp
+}
+
+.logo{
+  margin-bottom: 20px;
+}
+
+section{
+  width: 710px;
+  height: auto;
+  margin: 10px auto;
+  padding:15px;
+}
+
+.code{
+  background-color: #E7E9EB;
+  padding:20px 15px;
+  border-radius: 5px;
+  margin-top:5px;
+  vertical-align: middle;
+  display:flex;
+  flex-direction:row;
+}
+
+code{
+  color:red;
+  font-family: Arial;
+  padding-left: 15px;
+}
+
+.code > span{
+  padding-left:15px;
+  color:#777;
+}
+
+.code-section{
+  margin-bottom:30px;
+}
+
+.ul-section{
+  padding-left:25px;
+}
+
+li{
+  padding-bottom: 18px;
+  color: #777;
+}
+
+.profile-section > ul{
+  padding-left: 25px;
+}
+
+.profile-section > h1{
+ margin-top:3.5rem;
+ margin-bottom:20px;
+}
+
+.link-section > ul{
+  padding-left: 25px;
+}
+
+.link-section > h1{
+  margin-top:2.5rem;
+  margin-bottom:20px;
+}
+
+.link-section > ul > li > a{
+  color:#777;
+  cursor:pointer; 
+}
+
+#contact{
+  color:white;
+  background-color:green;
+  padding:10px;
+  border-radius:5px;
+}
+
+.Name{
+  display: grid;
+  grid-template-columns:1fr 1fr ;
+  margin-top:30px;
+  margin-bottom:10px;
+  
+}
+
+input[type=text] {
+  width: 95%;
+  padding: 8px 16px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+
+}
+
+input[type=email] {
+  width: 98%;
+  padding: 8px 16px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding:8px;
+
+}
+
+textarea {
+  width: 98%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;  
+  resize: none;
+}
+
+a{
+  text-decoration: none;
+}
