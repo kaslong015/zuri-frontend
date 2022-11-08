@@ -61,12 +61,6 @@ img{
   margin-bottom: 20px;
 }
 
-section{
-  width: 710px;
-  height: auto;
-  margin: 10px auto;
-  padding:15px;
-}
 
 .code{
   background-color: #E7E9EB;
@@ -102,13 +96,56 @@ li{
   color: #777;
 }
 
-.profile-section > ul{
-  padding-left: 25px;
+/* profile page css */
+
+section{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;   
 }
 
-.profile-section > h1{
- margin-top:3.5rem;
- margin-bottom:20px;
+.img{
+  display:flex;
+  width: 100%;
+  align-items:center;
+  justify-content: center;  
+  min-width:300px; 
+  margin: 5px auto;
+}
+
+.text{
+  font-weight: bold;
+  text-align: center;
+  margin: 10px auto;
+  display:flex;
+  width: 100%;
+  align-items:center;
+  justify-content: center;  
+  min-width:300px; 
+}
+
+.container{
+  margin:10px auto;   
+  width:50vw;
+  min-width:300px;
+}
+
+.container > div{
+  display:flex;
+  flex-direction:column;
+  align-items: center
+}
+
+.container > div > a{
+ text-decoration: none;
+ background-color:#ccc;
+ color:black;
+ padding:10px;
+ margin-top: 10px;
+ margin-bottom: 10px;
+ width:50%;
+ text-align:center;
 }
 
 .link-section > ul{

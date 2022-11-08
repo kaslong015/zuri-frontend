@@ -5,19 +5,22 @@ function Profile() {
   return (
     <div>
       <section>
-        <div className="profile-header">
-          <img src={profileimg} alt="" srcset="" />
-          <h3 id="username">kaslong</h3>
-        </div>
-        <div className="links">
-          <a href="">Twitter Link</a>
-          <a href="">Zuri Team</a>
-          <a href="">Zuri Books</a>
-          <a href="">Python Books</a>
-          <a href="">Design Books</a>
-          <a href="">Background Check for Coders</a>
-          <a href="/contact">Contact Me</a>
-        </div>
+           <div class="img">
+              <img src={profileimg} alt="" srcset="" />
+            </div>
+            <div class="text">kaslong</div>
+            <div class="container">
+                <div>
+                    <a href="https://twitter.com/kaslong_">Twitter Link</a>
+                    <a href="https://training.zuri.team/">Zuri Team</a>
+                    <a href="https://books.zuri.team/">Zuri Books</a>
+                    <a href="https://books.zuri.team/python-for-begginners">Python Books</a>
+                    <a href="https://books.zuri.team/design-rule">Design Books</a>
+                    <a href="https://background.zuri.team/">Background Check for Coders</a>
+                    <a href="/contact">Contact Me</a>
+                </div>
+
+            </div>
       </section>
     </div>
   )
